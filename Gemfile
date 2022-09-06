@@ -24,6 +24,12 @@ gem "sqlite3", "~> 1.4"
 # https://github.com/jarmo/require_all
 gem "require_all"
 
+gem 'psych', '~> 2.0', '>= 2.0.17'
+gem 'puma', '~> 5.6', '>= 5.6.5'
+gem 'thin', '~> 1.8', '>= 1.8.1'
+gem 'falcon', '~> 0.42.3'
+gem 'webrick', '~> 1.7'
+
 # These gems will only be used when we are running the application locally
 group :development do
   # Used to generate seed data
